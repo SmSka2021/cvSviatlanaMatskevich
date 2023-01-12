@@ -69,7 +69,10 @@ body {
     padding: 20px 50px;
     gap: 40px;
 }
-
+.container_tms {
+    align-items: center;
+    gap: 0;
+}
 .main__info {
     width: 30%;
 }
@@ -108,7 +111,6 @@ body {
         gap: 0;
         padding: 0;
     }
-
     .rs,
     .info_tms {
         width: 87%;
