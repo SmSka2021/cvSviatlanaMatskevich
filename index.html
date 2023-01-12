@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/general_style.css">
+    <link rel="stylesheet" href="styles/style_anime.css">
+    <link rel="stylesheet" href="styles/style_main_page.css">
+    <title>Resume</title>
+    <link rel="icon" href="./assets/img/favicon.ico">
+</head>
+
+<body>
+<header class="header">
+    <img class="header__img" src="./assets/img/SvS.png" alt="my img">
+    <div class="header__container">
+        <button class="header__btn_openMenu" type="button"></button>
+        <h1 class="header__title">Светлана Мацкевич</h1>
+        <h3 class="header__text">JUNIOR FRONT-END DEVELOPER</h3>
+        <nav class="nav">
+            <button class="header__btn_closeMenu" type="button"></button>
+            <ul class="nav__list">
+                <li><a href="#skills" class="nav__link">Технологии</a></li>
+                <li><a href="#education" class="nav__link">Образование</a></li>
+                <li><a href="#certificate" class="nav__link">Сертификаты</a></li>
+                <li><a href="#project" class="nav__link">Примеры работ</a></li>
+                <li><a href="#experience" class="nav__link">Опыт</a></li>
+                <li><a href="#languages" class="nav__link">Языки</a></li>
+                <li><a href="#contact" class="nav__link">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="dark-layer"></div>
+    </div>
+</header>
+<aside class="aside">
+    <section class="aside__contact" id="contact">
+        <h2 class="aside__title dark__title">Контакты</h2>
+        <ul class="aside__list">
+            <li class="aside__list_item dark_item ">
+                <a href="tel:+375336454419">Phone: +375 33 6454419</a>
+            </li>
+            <li class="aside__list_item dark_item ">
+                <a href="mailto:Sve-Mac@yandex.ru">E-mail:
+                    Sve-Mac@yandex.ru</a>
+            </li>
+            <li class="aside__list_item dark_item ">
+                <a href="https://github.com/SmSka2021">GitHub:
+                    (https://github.com/SmSka2021)
+                </a>
+            </li>
+            <li class="aside__list_item dark_item ">
+                <a href="https://www.linkedin.com/in/светлана-мацкевич-4b091a224"> LinkedIn:
+                    (https://www.linkedin.com/in/светлана-мацкевич-4b091a224)
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section class="aside__education" id="education">
+        <h2 class="aside__title dark__title right__title">Образование</h2>
+        <ul class="aside__list">
+            <li class="aside__list_item dark_item "><span>The Rolling Scopes School</span> -
+                IT-школа,
+                <br> специализация: Front-end developer, Angular
+                <br> (декабрь 2021- декабрь 2022)
+            </li>
+            <li class="aside__list_item dark_item "><span>TeachMeSkills</span> - IT-курсы, Минск
+                <br> специализация: Front-end developer, React
+                <br>(сентябрь 2021- сентябрь 2022)
+            </li>
+            <li class="aside__list_item dark_item"><span>АПО, Минск</span>
+                <br>специализация: менеджер в системе образования
+                <br>(2000-2002)
+            </li>
+            <li class="aside__list_item dark_item"><span>ВГПУ, Витебск</span>
+                <br>специализация: учитель, бакалавр пед.наук
+                <br> (1994-1998)
+            </li>
+        </ul>
+    </section>
+    <section class="aside__certificates light__fon" id="certificate">
+        <h2 class="aside__title dark__title">Сертификаты</h2>
+        <ul class="aside__list certificates__list">
+            <li class="aside__list_item dark_item">
+                <button class="certificates__btn js" type="button">JavaScript</button>
+            </li>
+            <li class="aside__list_item dark_item">
+                <button class="certificates__btn react" type="button">React</button>
+            </li>
+            <li class="aside__list_item dark_item">
+                <button class="certificates__btn angular" type="button">Angular</button>
+            </li>
+        </ul>
+    </section>
+    <section class="aside__project" id="project">
+        <h2 class="aside__title dark__title right__title">Примеры работ</h2>
+        <ul class="aside__list">
+            <li class="aside__list_item dark_item">
+                "Kanban_organizer":
+                <a target="_blank" class="project__link"
+                   href="https://github.com/SmSka2021/Kanban_organizer">код(Angular)</a>
+                <a target="_blank" class="project__link link_green"
+                   href="https://project-management-app-codebusters.netlify.app">deploy</a>
+            </li>
+            <li class="aside__list_item dark_item">
+                "Car_Site":
+                <a target="_blank" class="project__link"
+                   href="https://github.com/SmSka2021/carSite">код(Angular)</a>
+                <a target="_blank" class="project__link link_green"
+                   href="https://smska2021.github.io/cars-hw">deploy</a>
+            </li>
+            <li class="aside__list_item dark_item">
+                "Shelter":
+                <a target="_blank" class="project__link"
+                   href="https://github.com/SmSka2021/shelter">код(JS/HTML/CSS)</a>
+                <a target="_blank" class="project__link link_green"
+                   href="https://smska2021.github.io/shelter">deploy</a>
+            </li>
+            <li class="aside__list_item dark_item">
+                "Photo_Site":
+                <a target="_blank" class="project__link"
+                   href="https://github.com/SmSka2021/fotografSite">код(JS/HTML/CSS)</a>
+                <a target="_blank" class="project__link link_green"
+                   href="https://smska2021.github.io/fotografSite">deploy</a>
+            </li>
+            <li class="aside__list_item dark_item">
+                "ToDo":
+                <a target="_blank" class="project__link" href="https://github.com/SmSka2021/todo">код(JS/HTML/CSS)</a>
+                <a target="_blank" class="project__link link_green"
+                   href="https://smska2021.github.io/todo/">deploy</a>
+            </li>
+            <li class="aside__list_item dark_item">
+                "Virtual_Keyboard":
+                <a target="_blank" class="project__link"
+                   href="https://github.com/SmSka2021/Virtual_Keyboard/tree/keyboard">код(JS)</a>
+                <a target="_blank" class="project__link link_green"
+                   href="https://smska2021.github.io/Virtual_Keyboard">deploy</a>
+            </li>
+            <li class="aside__list_item dark_item">
+                "Project React":
+                <a target="_blank" class="project__link"
+                   href="https://github.com/SmSka2021/projectReact">код(React/Redux)</a>
+            </li>
+        </ul>
+    </section>
+    <section class="aside__languages light__fon">
+        <h2 class="aside__title dark__title" id="languages">Языки</h2>
+        <ul class="aside__list">
+            <li class="aside__list_item dark_item">Русский (native)</li>
+            <li class="aside__list_item dark_item">Английский (A2+)</li>
+            <li class="aside__list_item dark_item">Польский (A2+)</li>
+            <li class="aside__list_item dark_item">Белорусский (native)</li>
+        </ul>
+    </section>
+</aside>
+<main class="main">
+    <section class="main__skills dark__fon" id="skills">
+        <h2 class="main__title">Технологии</h2>
+        <ul class="main__list">
+            <li class="main__list_item">HTML/CSS/SCSS/SASS</li>
+            <li class="main__list_item">JavaScript/TypeScript;</li>
+            <li class="main__list_item">React + Redux</li>
+            <li class="main__list_item">Angular + NgRx + RxJs</li>
+            <li class="main__list_item">Angular Material /Bootstrap/ Ant Design</li>
+            <li class="main__list_item">Figma/AdobePhotoshop</li>
+            <li class="main__list_item">npm, yarn</li>
+            <li class="main__list_item">Git, Webpack</li>
+            <li class="main__list_item">ESLint, Prettier</li>
+            <li class="main__list_item">Corel Video Studio, Adobe Premiere</li>
+        </ul>
+    </section>
+    <section class="main__experience" id="experience">
+        <h2 class="main__title left__title">Опыт работы</h2>
+        <ul class="main__list">
+            <li class="main__list_item">
+                <p class="main__experience_work"><span>(Дек 2021- дек 2022) The Rolling Scopes School</span>
+                </p>
+                <p class="main__experience_job">Frontend-разработчик(Angular)</p>
+                <p>Используемые технологии : Angular, NgRx, RxJs, JavaScript, Git, Figma,
+                    TypeScript, HTML5, CSS/SCSS/SASS, Webpack, MongoDB, backend, MVC,
+                    Corel Video Studio, AdobePhotosop).</p>
+                <a class="experience__btn" type="button" href="pages_html/index_page1.html">Подробнее</a>
+
+            </li>
+            <li class="main__list_item">
+                <p class="main__experience_work"><span>(сент 2021- сент 2022) TeachMeSkills</span>
+                </p>
+                <p class="main__experience_job">Frontend-разработчик(React)</p>
+                <p>Используемые технологии: React, Redux, JavaScript, TypeScript, HTML5,
+                    CSS/SCSS/SASS, Webpack / Parcel, Git, Figma, Jest,grid, Bootstrap,Ant Design
+                </p>
+                <a class="experience__btn" type="button" href="pages_html/index_page2.html">Подробнее</a>
+            </li>
+            <li class="main__list_item">
+                <p class="main__experience_work"><span>(cент 2016 – авг 2021) УТЗСЗН Браславского райисполкома</span>
+                </p>
+                <p class="main__experience_job">Системный администратор</p>
+                <p>Установка операционных систем и ПО. Работа по защите информации.
+                    Обслуживание локальной сети из 15 ПК и 2 серверов.</p>
+            </li>
+            <li class="main__list_item">
+                <p class="main__experience_work"><span>(cент 2002 – сент 2016) ГУО "Браславская гимназия"</span>
+                </p>
+                <p class="main__experience_job">Педагог</p>
+                <p>Кроме преподавания школьных дисциплин вела занятия по курсу
+                    "Видео и фото-монтаж", курировала сайт учреждения образования.
+                    Технологии: AdobePhotoshop, Adobe Premiere, CorelVideoStudio
+                    Одна из работ (анимационный видео-ролик) стала лауреатом
+                    международного конкурса “Virtual iEARN Adobe Youth Voices”
+                </p>
+            </li>
+        </ul>
+    </section>
+    <section class="main__soft-skills dark__fon" id="soft-skills">
+        <h2 class="main__title">Личные качества</h2>
+        <ul class="main__list">
+            <li class="main__list_item">Моими сильными сторонами являются коммуникабельность,
+                творческий подход к решению проблем и быстрота обучения.
+            </li>
+            <li class="main__list_item">Высокий уровень мотивации саморазвития.
+            </li>
+            <li class="main__list_item">Постоянно читаю профильные сайты и техническую литературу и
+                статьи по специальности.
+            </li>
+            <li class="main__list_item">Имею спортивный опыт (кандидат в мастера спорта), поэтому
+                умею ответственно и усердно относиться к любому делу и всегда достигаю поставленной
+                цели.
+            </li>
+            <li class="main__list_item">Мои коллеги ценят меня за оптимизм, трудолюбие,
+                добросовестность, честность и чувство юмора.
+            </li>
+            <li class="main__list_item">Увлекаюсь шахматами, настольным теннисом.
+            </li>
+        </ul>
+    </section>
+</main>
+<div class="modal" id="modal">
+    <button type="button" class="modal__btn">X</button>
+    <img class="modal__img" src="./assets/img/certificate_Angular_2022.jpg" alt="Certificate"/>
+</div>
+<div class="rightBorder"></div>
+<div class="bottomBorder"></div>
+<footer class="footer">
+    <h5> Контакты для связи: </h5>
+    <div class="footer__content">
+        <a href="https://www.facebook.com/svetlana.matskevich" target="_blank" class="socialIcon">
+            <img src="./assets/svg/icon_fs.svg" alt="socialIcon">
+        </a>
+        <a href="https://vk.com/id176383084" target="_blank" class="socialIcon">
+            <img src="./assets/svg/iconVk.svg" alt="socialIcon">
+        </a>
+        <a href="https://t.me/frontend_developer_SmS" target="_blank" class="socialIcon">
+            <img src="./assets/svg/iconTG.svg" alt="socialIcon">
+        </a>
+    </div>
+</footer>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

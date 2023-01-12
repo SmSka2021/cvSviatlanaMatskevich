@@ -1,0 +1,71 @@
+@keyframes pulsate {
+    30% {
+        opacity: 1;
+        transform: translateX(-50%) translateY(-50%) scale(1);
+    }
+    100% {
+        opacity: 0.3;
+        transform: translateX(-50%) translateY(-50%) scale(0.5);
+    }
+}
+
+@keyframes check {
+    0% {
+        transform: scale(0.4);
+        background: var(--btn-color-red);
+        box-shadow: 0 0 0 .7rem var(--font-white), 0 0 0 1rem rgba(241, 207, 12, 0.5);
+    }
+
+    100% {
+        transform: scale(1);
+        background: radial-gradient(var(--fon-color-blue-dark) 20%, var(--header-color) 20%);
+    }
+}
+
+@keyframes animeTxt {
+    0% {
+        color: var(--color-anime1);
+    }
+    25% {
+        color: var(--color-anime2);
+    }
+    50% {
+        color: var(--color-anime3);
+    }
+    75% {
+        color: var(--color-anime4);
+    }
+    100% {
+        color: var(--color-anime5);
+    }
+}
+
+@keyframes animeTxtV2 {
+    0% {
+        color: var(--fon-color-blue-dark);
+    }
+    50% {
+        color: var(--btn-color-red);
+    }
+    100% {
+        color: var(--scroll-color1);
+    }
+}
+
+@keyframes animePulse {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
