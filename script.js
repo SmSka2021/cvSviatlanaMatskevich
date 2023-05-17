@@ -26,6 +26,9 @@ function closeMenu() {
 }
 function openModal(event) {
     switch (event.target.classList[1]){
+        case 'data_mola':
+            modalImg.setAttribute('src', './assets/img/certificate_DataMola.jpg');
+            break;
         case 'js':
             modalImg.setAttribute('src', './assets/img/certificate_RS_frontend_stage_2.jpg');
             break;

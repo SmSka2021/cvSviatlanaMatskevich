@@ -163,18 +163,20 @@ li::marker {
     margin-right: 20px;
     font-size: 1rem;
     color: var(--font-white);
-    animation: animePulse 6s linear infinite;
+    animation: animePulse 5s linear infinite;
     cursor: pointer;
 }
 
 .js {
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 .react {
-    animation-delay: 4s;
+    animation-delay: 2s;
 }
-
+.data_mola {
+    animation-delay: 3s;
+}
 .certificates__list {
     display: flex;
 
