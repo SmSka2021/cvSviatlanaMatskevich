@@ -22,6 +22,19 @@
     }
 }
 
+@keyframes check2 {
+    0% {
+        transform: scale(0.4);
+        background: var(--btn-color-red);
+        box-shadow: 0 0 0 .7rem var(--font-white), 0 0 0 1rem rgba(241, 207, 12, 0.5);
+    }
+
+    100% {
+        transform: scale(1);
+        background: radial-gradient( gold 20%, rgb(12,4,34) 20%);
+    }
+}
+
 @keyframes animeTxt {
     0% {
         color: var(--color-anime1);
