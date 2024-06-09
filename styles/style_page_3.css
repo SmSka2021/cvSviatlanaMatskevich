@@ -1,4 +1,3 @@
-
 .wrapper {
     width: 90%;
     margin: 10px auto;
@@ -23,6 +22,7 @@
 
 .slider__contents img {
     max-width: 100%;
+    aspect-ratio: 16/9;
 }
 
 .slider_and_input {
@@ -72,7 +72,7 @@
 }
 
 .switcher {
-    background: radial-gradient(rgb(248, 244, 244) 20%, rgb(12,4,34) 20%);   
+    background: radial-gradient(rgb(248, 244, 244) 20%, rgb(12, 4, 34) 20%);
     display: inline-block;
     width: 3rem;
     height: 3rem;
@@ -90,106 +90,113 @@
     margin: 0;
     transform: scale(0);
     visibility: hidden;
+
 }
 
-#img_1:checked ~ #slider__inner {
+#img_1:checked~#slider__inner {
     transform: translateX(0%)
 }
 
-#img_2:checked ~ #slider__inner {
+#img_2:checked~#slider__inner {
     transform: translateX(-9.09%)
 }
 
-#img_3:checked ~ #slider__inner {
+#img_3:checked~#slider__inner {
     transform: translateX(-18.18%)
 }
 
-#img_4:checked ~ #slider__inner {
+#img_4:checked~#slider__inner {
     transform: translateX(-27.27%)
 }
 
-#img_5:checked ~ #slider__inner {
+#img_5:checked~#slider__inner {
     transform: translateX(-36.36%)
 }
 
-#img_6:checked ~ #slider__inner {
+#img_6:checked~#slider__inner {
     transform: translateX(-45.45%)
 }
 
-#img_7:checked ~ #slider__inner {
+#img_7:checked~#slider__inner {
     transform: translateX(-54.54%)
 }
 
-#img_8:checked ~ #slider__inner {
+#img_8:checked~#slider__inner {
     transform: translateX(-63.63%)
 }
-#img_9:checked ~ #slider__inner {
+
+#img_9:checked~#slider__inner {
     transform: translateX(-72.72%)
 }
-#img_10:checked ~ #slider__inner {
+
+#img_10:checked~#slider__inner {
     transform: translateX(-81.81%)
 }
-#img_11:checked ~ #slider__inner {
+
+#img_11:checked~#slider__inner {
     transform: translateX(-90.9%)
 }
 
-#img_1:checked ~ div div #slider__inner_Text {
+#img_1:checked~div div #slider__inner_Text {
     transform: translateX(0%)
 }
 
-#img_2:checked ~ div div #slider__inner_Text {
+#img_2:checked~div div #slider__inner_Text {
     transform: translateX(-9.09%)
 }
 
-#img_3:checked ~ div div #slider__inner_Text {
+#img_3:checked~div div #slider__inner_Text {
     transform: translateX(-18.18%)
 }
 
-#img_4:checked ~ div div #slider__inner_Text {
+#img_4:checked~div div #slider__inner_Text {
     transform: translateX(-27.27%)
 }
 
-#img_5:checked ~ div div #slider__inner_Text {
+#img_5:checked~div div #slider__inner_Text {
     transform: translateX(-36.36%)
 }
 
-#img_6:checked ~ div div #slider__inner_Text {
+#img_6:checked~div div #slider__inner_Text {
     transform: translateX(-45.45%)
 }
 
-#img_7:checked ~ div div #slider__inner_Text {
+#img_7:checked~div div #slider__inner_Text {
     transform: translateX(-54.54%)
 }
 
-#img_8:checked ~ div div #slider__inner_Text {
+#img_8:checked~div div #slider__inner_Text {
     transform: translateX(-63.63%)
 }
-#img_9:checked ~ div div #slider__inner_Text {
+
+#img_9:checked~div div #slider__inner_Text {
     transform: translateX(-72.72%)
 }
-#img_10:checked ~ div div #slider__inner_Text {
+
+#img_10:checked~div div #slider__inner_Text {
     transform: translateX(-81.81%)
 }
-#img_11:checked ~ div div #slider__inner_Text {
+
+#img_11:checked~div div #slider__inner_Text {
     transform: translateX(-90.9%)
 }
 
-#img_1:checked ~ div div #switcher1,
-#img_2:checked ~ div div #switcher2,
-#img_3:checked ~ div div #switcher3,
-#img_4:checked ~ div div #switcher4,
-#img_5:checked ~ div div #switcher5,
-#img_6:checked ~ div div #switcher6,
-#img_7:checked ~ div div #switcher7,
-#img_8:checked ~ div div #switcher8,
-#img_9:checked ~ div div #switcher9,
-#img_10:checked ~ div div #switcher10,
-#img_11:checked ~ div div #switcher11 {
+#img_1:checked~div div #switcher1,
+#img_2:checked~div div #switcher2,
+#img_3:checked~div div #switcher3,
+#img_4:checked~div div #switcher4,
+#img_5:checked~div div #switcher5,
+#img_6:checked~div div #switcher6,
+#img_7:checked~div div #switcher7,
+#img_8:checked~div div #switcher8,
+#img_9:checked~div div #switcher9,
+#img_10:checked~div div #switcher10,
+#img_11:checked~div div #switcher11 {
     animation: check2 0.5s linear forwards;
 }
 
 .switcher:hover {
-    background: radial-gradient(rgb(238, 8, 115) 20%, rgb(12,4,34) 20%);
+    background: radial-gradient(rgb(238, 8, 115) 20%, rgb(12, 4, 34) 20%);
 }
 
 @media screen and (max-width: 1100px) {
@@ -231,4 +238,112 @@
     .slider__contents_Text {
         padding: 0;
     }
+}
+
+
+
+/**   2   slider  ----------  **/
+
+#img_21:checked~#slider2__inner {
+    transform: translateX(0%)
+}
+
+#img_22:checked~#slider2__inner {
+    transform: translateX(-9.09%)
+}
+
+#img_23:checked~#slider2__inner {
+    transform: translateX(-18.18%)
+}
+
+#img_24:checked~#slider2__inner {
+    transform: translateX(-27.27%)
+}
+
+#img_25:checked~#slider2__inner {
+    transform: translateX(-36.36%)
+}
+
+#img_26:checked~#slider2__inner {
+    transform: translateX(-45.45%)
+}
+
+#img_27:checked~#slider2__inner {
+    transform: translateX(-54.54%)
+}
+
+#img_28:checked~#slider2__inner {
+    transform: translateX(-63.63%)
+}
+
+#img_29:checked~#slider2__inner {
+    transform: translateX(-72.72%)
+}
+
+#img_30:checked~#slider2__inner {
+    transform: translateX(-81.81%)
+}
+
+#img_31:checked~#slider2__inner {
+    transform: translateX(-90.9%)
+}
+
+#img_21:checked~div div #slider2__inner_Text {
+    transform: translateX(0%)
+}
+
+#img_22:checked~div div #slider2__inner_Text {
+    transform: translateX(-9.09%)
+}
+
+#img_23:checked~div div #slider2__inner_Text {
+    transform: translateX(-18.18%)
+}
+
+#img_24:checked~div div #slider2__inner_Text {
+    transform: translateX(-27.27%)
+}
+
+#img_25:checked~div div #slider2__inner_Text {
+    transform: translateX(-36.36%)
+}
+
+#img_26:checked~div div #slider2__inner_Text {
+    transform: translateX(-45.45%)
+}
+
+#img_27:checked~div div #slider2__inner_Text {
+    transform: translateX(-54.54%)
+}
+
+#img_28:checked~div div #slider2__inner_Text {
+    transform: translateX(-63.63%)
+}
+
+#img_29:checked~div div #slider2__inner_Text {
+    transform: translateX(-72.72%)
+}
+
+#img_30:checked~div div #slider2__inner_Text {
+    transform: translateX(-81.81%)
+}
+
+#img_31:checked~div div #slider2__inner_Text {
+    transform: translateX(-90.9%)
+}
+
+
+
+#img_21:checked~div div #switcher21,
+#img_22:checked~div div #switcher22,
+#img_23:checked~div div #switcher23,
+#img_24:checked~div div #switcher24,
+#img_25:checked~div div #switcher25,
+#img_26:checked~div div #switcher26,
+#img_27:checked~div div #switcher27,
+#img_28:checked~div div #switcher28,
+#img_29:checked~div div #switcher29,
+#img_30:checked~div div #switche30,
+#img_31:checked~div div #switcher31 {
+    animation: check2 0.5s linear forwards;
 }

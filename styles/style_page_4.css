@@ -1,0 +1,80 @@
+   .box_title {
+       display: flex;
+       align-items: center;
+       justify-content: flex-start;
+       gap: 10px;
+
+       text-transform: uppercase;
+       font-size: 1rem;
+       line-height: 150%;
+       font-weight: 400;
+       color: #aeaeb2;
+       margin: 30px 5px;
+       padding-left: 5px;
+   }
+
+   .s_gorizontal_scroll {
+       width: 100%;
+       padding: 30px 30px 50px;
+   }
+
+   .myscroll_gorizontal {
+       min-width: 100%;
+
+       display: flex;
+       overflow-x: auto;
+       scroll-behavior: smooth;
+       scroll-snap-type: x mandatory;
+       background-color: black;
+   }
+
+   .myscroll_gorizontal::-webkit-scrollbar {
+       display: none;
+   }
+
+   .scroll_gorisont_item {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       min-width: 200px;
+       margin: 5px;
+       position: relative;
+   }
+
+   .bottom_txt {
+       position: absolute;
+       width: 100%;
+       bottom: 0;
+       text-align: center;
+       color: white;
+       font-size: 14px;
+       font-weight: 400;
+       background-color: #272729;
+       padding: 5px;
+       z-index: 2;
+   }
+
+   .b_10 {
+       position: relative;
+       font-size: 11px;
+       line-height: 16px;
+       background-color: black;
+   }
+
+   img {
+       max-width: 100%;
+       height: auto;
+   }
+
+   .min_w140 {
+       max-width: 500px;
+       min-width: 50%;
+
+   }
+
+   .as_r_16 img {
+       aspect-ratio: 16/15;
+       object-position: top;
+       object-fit: cover;
+       position: relative;
+   }
